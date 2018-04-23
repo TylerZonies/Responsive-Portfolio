@@ -1,0 +1,30 @@
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+    margin: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.center{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.hdElement{
+    background-color: white;
+}
+
+.name{
+    float: left;
+    margin-top: auto;
+    background-color: blue;
+
+}
+.pageLinks{
+    float: right;
+}
